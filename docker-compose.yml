@@ -1,7 +1,7 @@
 version: '3'
 services:
-  mongo-demo-cloud:
-    container_name: mongo-demo-cloud
+  my-mongo-db:
+    container_name: my-mongo-db
     image: mongo:5
     ports:
       - '27017:27017'
